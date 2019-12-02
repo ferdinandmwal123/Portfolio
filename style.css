@@ -45,7 +45,7 @@ nav{
     animation: slideIn .5s forwards;
 }
 .brand span{
-    color: crimson;
+    color: red;
 }
 
 nav ul{
@@ -89,11 +89,11 @@ nav ul li a{
     overflow: hidden;
     transform: translateY(-50%);
 }
-.anim-typewriter{
-    animation: typewriter  4s steps(40)  1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+.anim-typing{
+    animation: typing  4s steps(40)  1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
 }
 
-@keyframes typewriter{
+@keyframes typing{
     from{
         width: 0;
     }
@@ -175,7 +175,7 @@ nav ul li a:hover::after{
 }
 .text2{
     font-size: 30px;
-    color: crimson;
+    color: red;
     animation: text 3s 1;
 
 }
