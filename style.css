@@ -200,7 +200,7 @@ nav ul li a:hover::after{
 .skills-menu ul{
     position: absolute;
     margin-top: -30px;
-    top: 60%;
+    top: 68%;
     left: 35%;
     display: flex;
 
@@ -220,7 +220,7 @@ nav ul li a:hover::after{
 
   .skills-menu2 ul{
       position: absolute;
-      top: 70%;
+      top: 83%;
       left: 35%;
       display: flex;
       margin:20px;
@@ -241,9 +241,10 @@ nav ul li a:hover::after{
   }
 .contact-menu ul{
     position: absolute;
-    top: 95%;
+    top: 111%;
     left: 50%;
     padding: 0;
+    margin-bottom: 0em;
     margin-top: 20px;
     margin: 0;
     display: flex;
@@ -253,6 +254,7 @@ nav ul li a:hover::after{
 .contact-menu ul li{
     list-style: none;
     margin: 0 35px;
+    margin-bottom: -100px;
 }
 .contact-menu ul li .fa{
     font-size: 30px;
