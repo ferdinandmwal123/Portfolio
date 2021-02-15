@@ -231,6 +231,7 @@ nav ul li a:hover::after {
   mix-blend-mode: difference;
   filter: blur(3px);
 }
+
 .neon-wrapper {
   position: absolute;
   top: 80%;
